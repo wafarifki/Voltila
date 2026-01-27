@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voltila Battery Monitor - Smart Power Management</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/icons.ico" />
+  </head>
+  <body>
+    <div class="background-globes">
+      <div class="globe globe-1"></div>
+      <div class="globe globe-2"></div>
+      <div class="globe globe-3"></div>
+    </div>
+
+    <nav class="navbar glass">
+      <div class="logo"><i class="fa-solid fa-bolt"></i> Voltila</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#download" class="btn-primary">Download v1.0.0</a></li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="fade-in-up">
+          Master Your <br /><span class="gradient-text">Battery Life</span>
+        </h1>
+        <p class="fade-in-up delay-1">
+          The intelligent, customizable battery monitor for Windows. Optimize
+          charging, prevent overcharging, and extend your battery lifespan with
+          style.
+        </p>
+        <div class="hero-buttons fade-in-up delay-2">
+          <a href="#download" class="btn-primary"
+            ><i class="fa-brands fa-windows"></i> Download for Windows</a
+          >
+          <a href="https://github.com/wafarifki/Voltila" target="_blank" class="btn-secondary"
+            ><i class="fa-brands fa-github"></i> View on GitHub</a
+          >
+        </div>
+      </div>
+      <div class="hero-image fade-in-up delay-3">
+        <div class="app-mockup glass">
+          <div class="mockup-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <!-- Abstract representation of the UI -->
+          <div class="mockup-body">
+            <div class="battery-circle">
+              <span class="bolt"><i class="fa-solid fa-bolt"></i></span>
+              <span class="percent">80%</span>
+            </div>
+            <div class="status-text">Charging safely</div>
+            <div class="control-slider">
+              <div class="bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="features">
+      <div class="section-header">
+        <h2>Why Voltila?</h2>
+        <p>Designed for performance and aesthetics.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card glass scroll-reveal">
+          <div class="icon"><i class="fa-solid fa-sliders"></i></div>
+          <h3>Smart Thresholds</h3>
+          <p>
+            Set custom notification limits. Choose between "Charge Limiter" or
+            "Drain Alert" modes instantly.
+          </p>
+        </div>
+        <div class="feature-card glass scroll-reveal delay-1">
+          <div class="icon"><i class="fa-solid fa-volume-high"></i></div>
+          <h3>Audio Alerts</h3>
+          <p>
+            Never miss a notification with looping custom sounds. Volume control
+            included.
+          </p>
+        </div>
+        <div class="feature-card glass scroll-reveal delay-2">
+          <div class="icon"><i class="fa-solid fa-palette"></i></div>
+          <h3>Modern UI</h3>
+          <p>
+            Beautiful Glassmorphism design with auto-switching Dark and Light
+            themes.
+          </p>
+        </div>
+        <div class="feature-card glass scroll-reveal delay-3">
+          <div class="icon"><i class="fa-brands fa-windows"></i></div>
+          <h3>System Tray</h3>
+          <p>
+            Runs quietly in the background. One-click access from your system
+            tray.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download-section">
+      <div class="download-card glass">
+        <h2>Get Voltila Today</h2>
+        <p>Lightweight, open-source, and battery-friendly.</p>
+        <div class="download-options">
+          <a href="https://media.githubusercontent.com/media/wafarifki/Voltila/refs/heads/main/Voltila_Installer_v1.0.0.exe" target="_blank" class="btn-primary big"
+            ><i class="fa-solid fa-download"></i> Download Voltila Now</a
+          >
+          <span class="version">Version 1.0.0 • Windows 10/11</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy;2026 Voltila Battery Monitor. Open Source.</p>
+      <div class="socials">
+        <a href="https://github.com/wafarifki/Voltila" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
