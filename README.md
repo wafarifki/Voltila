@@ -4,7 +4,7 @@
 
 Voltila is an intelligent, customizable battery monitor for Windows designed for performance and aesthetics. Optimize charging, prevent overcharging, and extend your battery lifespan with style.
 
-![Voltila Banner](https://i.ibb.co.com/RTKgBkfW/voltila-batterymonitor.jpg)
+![Voltila Banner](https://i.postimg.cc/65KtqGd9/voltila-batterymonitor.jpg)
 
 ## Features
 
