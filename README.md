@@ -1,4 +1,4 @@
-# Voltila Battery Monitor
+# Voltila Battery Alarm & Monitor
 
 **Master Your Battery Life**
 
